@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-	width: 95%;
+	width: 99%;
 	margin: 0 auto;
 }
 
@@ -23,26 +23,30 @@ header::after {
 
 .logo {
   padding: 0 0;
+	float: right
 }
 
 nav {
-  float: right;
 }
 
 nav ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
   list-style: none;
 }
 
+
 nav li {
   display: inline-block;
-  margin-left: 70px;
-  padding-top: 50px;
+  margin: 10 0 0 10;
+  padding-top: 0%;
+	padding-left:10;
 
   position: relative;
 }
 
+
+/*the hyperlinks themselves*/
 nav a {
   color: #e93845;
   text-decoration: none;
@@ -50,18 +54,22 @@ nav a {
   font-size: 14px;
 }
 
+
+/*colour the text goes on hover*/
 nav a:hover {
   color: #000;
 }
 
+
+/*thingy above the buttons*/
 nav a::before {
   content: '';
   display: block;
-  height: 5px;
+  height: 1px;
   background-color: #e93845;
 
   position: absolute;
-  top: 0;
+  top: 2px;
   width: 0%;
 
   transition: all ease-in-out 250ms;
@@ -69,9 +77,4 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-}
-
-
-button {
-    background-image: url(Pictures/logo.png);
 }
