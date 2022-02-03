@@ -1,21 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
-	margin: 0%;
-	background: #222;
+	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
-	background-image: url("Pictures/logo.png");
+	background-image: url('../Pictures/arsnea.png');
 }
-
 
 .container {
 	width: 99%;
 	margin: 0 auto;
 }
 
+
+
+
+
+h1{
+	text-align: center;
+	font-size: 72px;
+	color:#FB0F66;
+
+
+}
 header {
   background: #440a51;
 }
+
+
+
+footer {
+  text-align: center;
+	margin-top:1000px;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
 
 header::after {
   content: '';
@@ -24,54 +44,49 @@ header::after {
 }
 
 .logo {
-  padding: 0 0;
-	float: right
+  float: left;
+  padding: 5px 0px;
 }
 
 nav {
+  float: left;
 }
-
+/*unordered list positioning */
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 0px;
+	padding-bottom: 2%;
+
   list-style: none;
 }
 
-
 nav li {
   display: inline-block;
-  margin: 10 0 0 10;
-  padding-top: 0%;
-	padding-left:10;
+  margin-left: 70px;
+  padding-top: 23px;
 
   position: relative;
 }
-
-
-/*the hyperlinks themselves*/
+/*words */
 nav a {
-  color: #e93845;
+  color: #FB0F66;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-
-/*colour the text goes on hover*/
 nav a:hover {
   color: #000;
 }
-
-
-/*thingy above the buttons*/
+/*hover thingy */
 nav a::before {
   content: '';
   display: block;
   height: 1px;
-  background-color: #e93845;
+  background-color: #FB0F66;
 
   position: absolute;
-  top: 2px;
+  top: 0;
   width: 0%;
 
   transition: all ease-in-out 250ms;
