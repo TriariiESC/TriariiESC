@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
-	margin: 0;
+	margin: 0%;
 	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
+	
 }
 
+
+
+h1 {
+	margin: 20%;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 1;
+	font-size: 72px;
+	color: #e93845;
+
+
+
+
+
+}
 .container {
 	width: 99%;
 	margin: 0 auto;
