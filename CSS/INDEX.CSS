@@ -123,13 +123,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: white;
 }
 /*hover thingy */
 nav a::before {
   content: '';
   display: block;
-  height: 1px;
+  height: 4px;
   background-color: #440a51;
 
   position: absolute;
