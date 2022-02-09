@@ -50,9 +50,12 @@ h1{
 }
 	h3{
 		color: #440a51;
+		margin-top:10px;
 		text-align: center;
-		background-color:black;
+		padding: 1px;
+		background-color:#161616;
 	}
+
 
 
 	a{
@@ -61,14 +64,14 @@ h1{
 
 	}
 header {
-  background: #0E0E10;
+  background: #080808;
 }
 
 
 footer {
   text-align: center;
 	margin-top:800px;
-	padding: 3px;
+	padding: 1%;
   background-color: #0E0E10;
   color:	#440a51;
 }
@@ -102,7 +105,10 @@ header::after {
 	border: 5px solid #440a51;
 
 
+
 }
+
+
 .logo {
   float: left;
 	height: 5%;
@@ -125,6 +131,7 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 3%;
+
 
   position: relative;
 }
